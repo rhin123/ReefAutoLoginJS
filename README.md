@@ -1,0 +1,1 @@
+Simple program that signs you into class automatically regardless of location.
