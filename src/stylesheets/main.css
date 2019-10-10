@@ -1,0 +1,105 @@
+html {
+  margin: 0 auto;
+}
+
+body {
+  background: #e2e3e42f;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+a {
+  color: #056d80;
+  text-decoration: none;
+}
+
+p, h1, a, button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f1e1e;
+}
+
+span {
+  background: white;
+  border: 1px solid black;
+}
+
+input, button:focus {
+  outline: none;
+}
+
+.container {
+  padding: 15px;
+}
+
+#main_container {
+  padding: 25px;
+  position: fixed;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#info_container {
+  text-align: center;
+}
+
+#login_container {
+  display: grid;
+}
+
+#user_info_container {
+  background: rgba(69, 166, 211, 0.164);
+  border: 1px solid black;
+}
+
+#course_info_container {
+  background: rgba(69, 166, 211, 0.164);
+  border: 1px solid black;
+  transform: translate(0, 1%);
+}
+
+input {
+  margin: 5px 0px 10px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 2px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(255, 255, 255, .3);
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  outline: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: #dae1e2;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  cursor: pointer;
+  padding: 13px 32px;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #297fff;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+button:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
