@@ -8,8 +8,8 @@ body {
 }
 
 a {
-  color: #056d80;
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 p, h1, a, button {
@@ -27,7 +27,8 @@ input, button:focus {
 }
 
 .container {
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #main_container {
@@ -49,12 +50,12 @@ input, button:focus {
 
 #user_info_container {
   background: rgba(69, 166, 211, 0.164);
-  border: 1px solid black;
+  border: 1px solid rgba(69, 166, 211, 0.473);
 }
 
 #course_info_container {
   background: rgba(69, 166, 211, 0.164);
-  border: 1px solid black;
+  border: 1px solid rgba(69, 166, 211, 0.473);
   transform: translate(0, 1%);
 }
 
@@ -78,6 +79,15 @@ input {
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   margin-bottom: 30px;
+  transition: all 0.4s ease 0s;
+}
+
+input:hover {
+  background: #cfd5d6;
+  letter-spacing: 1px;
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
 
 button {
